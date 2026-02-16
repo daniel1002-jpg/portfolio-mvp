@@ -77,10 +77,33 @@ export const backendArchitecture = [
   },
 ];
 
-export const experienceAndCommunity = {
-  education: "3er año - Ingeniería en Informática (Universidad de Buenos Aires)",
-  hackathons: [
-    "Google Chrome AI Hackathon",
-    "Web3 / Starknet Bootcamp"
+export const aboutMe = {
+  title: "Perfil_Ingeniero",
+  paragraphs: [
+    "Formado en Ingeniería en la UBA, con una base sólida en matemáticas y algoritmos. Mi enfoque no es solo escribir código, sino diseñar sistemas resilientes. Busco conectar la teoría académica (estructuras de datos, concurrencia) con la práctica del desarrollo de productos reales.",
+    "Me apasiona la infraestructura, desde la arquitectura de microservicios hasta la optimización de bajo nivel. Creo en el aprendizaje constante y en usar la tecnología como una herramienta pragmática para resolver problemas de negocio y escalabilidad."
   ]
 };
+
+export const techStack = [
+  {
+    category: "Frontend / UI",
+    icon: "💻", 
+    tags: ["React", "Next.js", "TypeScript", "TailwindCSS", "Vite"]
+  },
+  {
+    category: "Backend / Systems",
+    icon: "⚙️", 
+    tags: ["Rust", "Node.js", "Docker", "Redis", "Express", "Microservicios"]
+  },
+  {
+    category: "Data / AI",
+    icon: "🧠", 
+    tags: ["Python", "Numpy", "K-Means", "Pandas", "Matplotlib"]
+  },
+  {
+    category: "Tools / DevOps",
+    icon: "🛡️", 
+    tags: ["Git", "Linux (Bash)", "VSCode", "PostgreSQL", "Jest"]
+  }
+];
