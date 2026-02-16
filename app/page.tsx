@@ -1,5 +1,6 @@
 import Hero from "../components/sections/Hero";
 import FeaturedProjects from '../components/sections/FeaturedProjects';
+import BackendArchitecture from "../components/sections/BackendArchitecture";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <div className="max-w-5xl mx-auto">
         <Hero />
         <FeaturedProjects />
+        <BackendArchitecture />
       </div>
     </main>
   );
