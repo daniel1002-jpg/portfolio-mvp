@@ -1,6 +1,7 @@
 import Hero from "../components/sections/Hero";
 import FeaturedProjects from '../components/sections/FeaturedProjects';
 import BackendArchitecture from "../components/sections/BackendArchitecture";
+import AboutAndSkills from "../components/sections/AboutAndSkills";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <Hero />
         <FeaturedProjects />
         <BackendArchitecture />
+        <AboutAndSkills />
       </div>
     </main>
   );
