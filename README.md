@@ -25,7 +25,7 @@ Este proyecto es un portfolio personal desarrollado con Next.js y TypeScript, mo
 	```
 
 ## Despliegue
-Puedes desplegar el portfolio en Vercel, Netlify u otro servicio compatible con Next.js.
+El portfolio está desplegado en Vercel y puedes verlo en: https://daniel-mamani.vercel.app/
 
 ## Contacto
 - Email: danymamani1002@gmail.com
